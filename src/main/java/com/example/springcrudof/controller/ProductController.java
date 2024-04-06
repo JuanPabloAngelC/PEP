@@ -60,7 +60,7 @@ public String mostrarFormularioEdicion(@PathVariable Long id, Model model) {
     
     // Renderizar la vista del formulario de edición
     productService.saveProduct(product);
-    return "product-form";
+    return "update-form";
 
 }
 
